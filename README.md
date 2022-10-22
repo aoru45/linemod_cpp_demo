@@ -8,7 +8,8 @@ cmake ..
 make
 ```
 ## Run
+```
 ./test
-
+```
 ## Blog
 https://www.cnblogs.com/aoru45/p/16810996.html
