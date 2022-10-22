@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.8 FATAL_ERROR)
+set(PROJECT_NAME test)
+find_package(OpenCV REQUIRED)
+add_executable(test linemod.cc)
+target_include_directories(test PUBLIC ${OpenCV_INCLUDE_DIRS})
+target_link_libraries(test ${OpenCV_LIBS})
