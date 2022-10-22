@@ -2,10 +2,11 @@
 Easist code for learning linemod 2d(not for production). 
 
 ## Build
+```
 mkdir build
 cmake ..
 make
-
+```
 ## Run
 ./test
 
